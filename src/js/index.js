@@ -1,11 +1,11 @@
-const btnAvancar = document.getElementById('btn-avancar'); //busca somente uma id
+const btnAvancar = document.getElementById('btn-avancar'); 
 const btnVoltar = document.getElementById('btn-voltar');
 let cartaoAtual = 0;
-const cartoes = document.querySelectorAll('.cartao')//buscar ele. por class(.) id(#)
+const cartoes = document.querySelectorAll('.cartao')
 
 //OBJETIVO 1
 
-btnAvancar.addEventListener('click', function () { //sempre que clicar na seta a função será iniciada
+btnAvancar.addEventListener('click', function () { 
 
     if (cartaoAtual === cartoes.length - 1) {
         return
